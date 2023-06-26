@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qlic7vUGPyZthHPiPSTQKwmEfS4FfDm6fp5LBhClpsmveUng0602UIJYCgVhR3siEpE+ADwTX2RfMkB7IRqCmA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\olgun\\OneDrive\\Masaüstü\\Çalışmalar\\MulakatApp\\MulakatApp\\MulakatApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\olgun\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.18.1\\microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512"
+  ],
+  "logs": []
+}

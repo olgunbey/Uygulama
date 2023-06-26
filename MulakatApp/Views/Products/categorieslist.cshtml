@@ -1,0 +1,35 @@
+﻿@using MulakatApp.Models;
+@model Root
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <td>Kategori Adı</td>
+            <td>Brand</td>
+            <td>Title</td>
+            <td>Stok</td>
+            <td>Price</td>
+            <td>İmages</td>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (var items in Model.products)
+
+            {
+                <tr>
+                    <td>@items.category</td>
+                    <td>@items.brand</td>
+                    <td>@items.title</td>
+                    <td>@items.stock</td>
+                    <td>@items.price</td>
+             @foreach (var item in items.images)
+                    {
+                     <td>@item</td>
+                    }
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>

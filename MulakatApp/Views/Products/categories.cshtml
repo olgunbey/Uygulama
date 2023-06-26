@@ -1,0 +1,9 @@
+﻿
+@model Category
+
+<form asp-action="categorieslist" asp-controller="Products" asp-route-id="@ViewBag.Categories.SelectedValues" method="get">
+    <label>Seçiniz</label>
+    <select asp-for="ID" asp-items="ViewBag.Categories" name="ID"></select>
+    <button>Gonder</button>
+
+</form>
